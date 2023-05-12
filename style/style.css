@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap");
+* {
+  font-family: "Lobster Two", cursive;
+}
+
+.navbar {
+  background: linear-gradient(111.4deg, rgb(209, 231, 235) 7.4%, rgb(238, 219, 199) 51.4%, rgb(255, 159, 122) 82.6%, rgb(255, 109, 58) 100.2%);
+}
+.navbar-brand {
+  font-family: "Lobster Two", cursive;
+  color: rgb(255, 109, 58);
+}
+.navbar-nav a {
+  color: rgb(255, 109, 58);
+}
+
+.container span {
+  color: rgb(111, 32, 3);
+}
+.container #button1 {
+  background-color: rgb(209, 231, 235);
+  color: rgb(255, 109, 58);
+}
+.container #button1:hover {
+  color: black;
+  background-color: rgb(209, 231, 235);
+  transform: scale(1.1);
+}
+
+.carousel img {
+  border-radius: 50%;
+  width: 100%;
+  height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.carousel-caption {
+  background-color: white;
+  color: rgb(255, 109, 58);
+  padding-top: 20px;
+  z-index: 2;
+  bottom: -1%;
+  border-radius: 20px;
+}
+.carousel-item::before {
+  content: "";
+  border-radius: 50%;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.album a {
+  background-color: rgb(209, 231, 235);
+  color: rgb(255, 109, 58);
+}
+.album a:hover {
+  color: black;
+  background-color: rgb(209, 231, 235);
+  transform: scale(1.1);
+}
+
+.card {
+  background-color: rgb(244, 237, 224);
+}
+
+footer {
+  background: linear-gradient(111.4deg, rgb(209, 231, 235) 7.4%, rgb(238, 219, 199) 51.4%, rgb(255, 159, 122) 82.6%, rgb(255, 109, 58) 100.2%);
+}
+footer .container b {
+  color: black;
+}
+footer .container a {
+  color: rgb(255, 109, 58);
+}
+footer .container a:hover {
+  color: rgb(111, 32, 3);
+}
+footer .container ul li i {
+  color: rgb(255, 109, 58);
+}
+footer .container ul li i:hover {
+  color: rgb(111, 32, 3);
+  transform: scale(1.3);
+}/*# sourceMappingURL=style.css.map */
